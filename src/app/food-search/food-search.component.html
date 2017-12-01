@@ -1,0 +1,6 @@
+<input [(ngModel)]="searchByName" />
+
+<button (click)="doFilter()">Search</button>
+
+<hr>
+<div *ngFor="let food of foodsToDisplay"><a [routerLink]="['/foods', food.id]">{{food.longDescription}}</a></div>

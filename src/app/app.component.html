@@ -1,0 +1,4 @@
+<div class="container-fluid">
+    <app-loading *ngIf="!isLoaded()"></app-loading>
+    <router-outlet *ngIf="isLoaded()"></router-outlet>
+</div>

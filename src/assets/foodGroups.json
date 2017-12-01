@@ -1,0 +1,105 @@
+{
+  "1000": {
+    "id": "1000",
+    "description": "Pork Products"
+  },
+  "1100": {
+    "id": "1100",
+    "description": "Vegetables and Vegetable Products"
+  },
+  "1200": {
+    "id": "1200",
+    "description": "Nut and Seed Products"
+  },
+  "1300": {
+    "id": "1300",
+    "description": "Beef Products"
+  },
+  "1400": {
+    "id": "1400",
+    "description": "Beverages"
+  },
+  "1500": {
+    "id": "1500",
+    "description": "Finfish and Shellfish Products"
+  },
+  "1600": {
+    "id": "1600",
+    "description": "Legumes and Legume Products"
+  },
+  "1700": {
+    "id": "1700",
+    "description": "Lamb, Veal, and Game Products"
+  },
+  "1800": {
+    "id": "1800",
+    "description": "Baked Products"
+  },
+  "1900": {
+    "id": "1900",
+    "description": "Sweets"
+  },
+  "2000": {
+    "id": "2000",
+    "description": "Cereal Grains and Pasta"
+  },
+  "2100": {
+    "id": "2100",
+    "description": "Fast Foods"
+  },
+  "2200": {
+    "id": "2200",
+    "description": "Meals, Entrees, and Side Dishes"
+  },
+  "2500": {
+    "id": "2500",
+    "description": "Snacks"
+  },
+  "3500": {
+    "id": "3500",
+    "description": "American Indian/Alaska Native Foods"
+  },
+  "3600": {
+    "id": "3600",
+    "description": "Restaurant Foods"
+  },
+  "0100": {
+    "id": "0100",
+    "description": "Dairy and Egg Products"
+  },
+  "0200": {
+    "id": "0200",
+    "description": "Spices and Herbs"
+  },
+  "0300": {
+    "id": "0300",
+    "description": "Baby Foods"
+  },
+  "0400": {
+    "id": "0400",
+    "description": "Fats and Oils"
+  },
+  "0500": {
+    "id": "0500",
+    "description": "Poultry Products"
+  },
+  "0600": {
+    "id": "0600",
+    "description": "Soups, Sauces, and Gravies"
+  },
+  "0700": {
+    "id": "0700",
+    "description": "Sausages and Luncheon Meats"
+  },
+  "0800": {
+    "id": "0800",
+    "description": "Breakfast Cereals"
+  },
+  "0900": {
+    "id": "0900",
+    "description": "Fruits and Fruit Juices"
+  },
+  "": {
+    "id": ""
+  }
+}

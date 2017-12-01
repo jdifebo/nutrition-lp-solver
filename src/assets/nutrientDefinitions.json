@@ -1,0 +1,1205 @@
+{
+  "203": {
+    "id": "203",
+    "units": "g",
+    "tagname": "PROCNT",
+    "description": "Protein",
+    "decimals": "2",
+    "srOrder": "600"
+  },
+  "204": {
+    "id": "204",
+    "units": "g",
+    "tagname": "FAT",
+    "description": "Total lipid (fat)",
+    "decimals": "2",
+    "srOrder": "800"
+  },
+  "205": {
+    "id": "205",
+    "units": "g",
+    "tagname": "CHOCDF",
+    "description": "Carbohydrate, by difference",
+    "decimals": "2",
+    "srOrder": "1100"
+  },
+  "207": {
+    "id": "207",
+    "units": "g",
+    "tagname": "ASH",
+    "description": "Ash",
+    "decimals": "2",
+    "srOrder": "1000"
+  },
+  "208": {
+    "id": "208",
+    "units": "kcal",
+    "tagname": "ENERC_KCAL",
+    "description": "Energy",
+    "decimals": "0",
+    "srOrder": "300"
+  },
+  "209": {
+    "id": "209",
+    "units": "g",
+    "tagname": "STARCH",
+    "description": "Starch",
+    "decimals": "2",
+    "srOrder": "2200"
+  },
+  "210": {
+    "id": "210",
+    "units": "g",
+    "tagname": "SUCS",
+    "description": "Sucrose",
+    "decimals": "2",
+    "srOrder": "1600"
+  },
+  "211": {
+    "id": "211",
+    "units": "g",
+    "tagname": "GLUS",
+    "description": "Glucose (dextrose)",
+    "decimals": "2",
+    "srOrder": "1700"
+  },
+  "212": {
+    "id": "212",
+    "units": "g",
+    "tagname": "FRUS",
+    "description": "Fructose",
+    "decimals": "2",
+    "srOrder": "1800"
+  },
+  "213": {
+    "id": "213",
+    "units": "g",
+    "tagname": "LACS",
+    "description": "Lactose",
+    "decimals": "2",
+    "srOrder": "1900"
+  },
+  "214": {
+    "id": "214",
+    "units": "g",
+    "tagname": "MALS",
+    "description": "Maltose",
+    "decimals": "2",
+    "srOrder": "2000"
+  },
+  "221": {
+    "id": "221",
+    "units": "g",
+    "tagname": "ALC",
+    "description": "Alcohol, ethyl",
+    "decimals": "1",
+    "srOrder": "18200"
+  },
+  "255": {
+    "id": "255",
+    "units": "g",
+    "tagname": "WATER",
+    "description": "Water",
+    "decimals": "2",
+    "srOrder": "100"
+  },
+  "257": {
+    "id": "257",
+    "units": "g",
+    "tagname": "",
+    "description": "Adjusted Protein",
+    "decimals": "2",
+    "srOrder": "700"
+  },
+  "262": {
+    "id": "262",
+    "units": "mg",
+    "tagname": "CAFFN",
+    "description": "Caffeine",
+    "decimals": "0",
+    "srOrder": "18300"
+  },
+  "263": {
+    "id": "263",
+    "units": "mg",
+    "tagname": "THEBRN",
+    "description": "Theobromine",
+    "decimals": "0",
+    "srOrder": "18400"
+  },
+  "268": {
+    "id": "268",
+    "units": "kJ",
+    "tagname": "ENERC_KJ",
+    "description": "Energy",
+    "decimals": "0",
+    "srOrder": "400"
+  },
+  "269": {
+    "id": "269",
+    "units": "g",
+    "tagname": "SUGAR",
+    "description": "Sugars, total",
+    "decimals": "2",
+    "srOrder": "1500"
+  },
+  "287": {
+    "id": "287",
+    "units": "g",
+    "tagname": "GALS",
+    "description": "Galactose",
+    "decimals": "2",
+    "srOrder": "2100"
+  },
+  "291": {
+    "id": "291",
+    "units": "g",
+    "tagname": "FIBTG",
+    "description": "Fiber, total dietary",
+    "decimals": "1",
+    "srOrder": "1200"
+  },
+  "301": {
+    "id": "301",
+    "units": "mg",
+    "tagname": "CA",
+    "description": "Calcium, Ca",
+    "decimals": "0",
+    "srOrder": "5300"
+  },
+  "303": {
+    "id": "303",
+    "units": "mg",
+    "tagname": "FE",
+    "description": "Iron, Fe",
+    "decimals": "2",
+    "srOrder": "5400"
+  },
+  "304": {
+    "id": "304",
+    "units": "mg",
+    "tagname": "MG",
+    "description": "Magnesium, Mg",
+    "decimals": "0",
+    "srOrder": "5500"
+  },
+  "305": {
+    "id": "305",
+    "units": "mg",
+    "tagname": "P",
+    "description": "Phosphorus, P",
+    "decimals": "0",
+    "srOrder": "5600"
+  },
+  "306": {
+    "id": "306",
+    "units": "mg",
+    "tagname": "K",
+    "description": "Potassium, K",
+    "decimals": "0",
+    "srOrder": "5700"
+  },
+  "307": {
+    "id": "307",
+    "units": "mg",
+    "tagname": "NA",
+    "description": "Sodium, Na",
+    "decimals": "0",
+    "srOrder": "5800"
+  },
+  "309": {
+    "id": "309",
+    "units": "mg",
+    "tagname": "ZN",
+    "description": "Zinc, Zn",
+    "decimals": "2",
+    "srOrder": "5900"
+  },
+  "312": {
+    "id": "312",
+    "units": "mg",
+    "tagname": "CU",
+    "description": "Copper, Cu",
+    "decimals": "3",
+    "srOrder": "6000"
+  },
+  "313": {
+    "id": "313",
+    "units": "�g",
+    "tagname": "FLD",
+    "description": "Fluoride, F",
+    "decimals": "1",
+    "srOrder": "6240"
+  },
+  "315": {
+    "id": "315",
+    "units": "mg",
+    "tagname": "MN",
+    "description": "Manganese, Mn",
+    "decimals": "3",
+    "srOrder": "6100"
+  },
+  "317": {
+    "id": "317",
+    "units": "�g",
+    "tagname": "SE",
+    "description": "Selenium, Se",
+    "decimals": "1",
+    "srOrder": "6200"
+  },
+  "318": {
+    "id": "318",
+    "units": "IU",
+    "tagname": "VITA_IU",
+    "description": "Vitamin A, IU",
+    "decimals": "0",
+    "srOrder": "7500"
+  },
+  "319": {
+    "id": "319",
+    "units": "�g",
+    "tagname": "RETOL",
+    "description": "Retinol",
+    "decimals": "0",
+    "srOrder": "7430"
+  },
+  "320": {
+    "id": "320",
+    "units": "�g",
+    "tagname": "VITA_RAE",
+    "description": "Vitamin A, RAE",
+    "decimals": "0",
+    "srOrder": "7420"
+  },
+  "321": {
+    "id": "321",
+    "units": "�g",
+    "tagname": "CARTB",
+    "description": "Carotene, beta",
+    "decimals": "0",
+    "srOrder": "7440"
+  },
+  "322": {
+    "id": "322",
+    "units": "�g",
+    "tagname": "CARTA",
+    "description": "Carotene, alpha",
+    "decimals": "0",
+    "srOrder": "7450"
+  },
+  "323": {
+    "id": "323",
+    "units": "mg",
+    "tagname": "TOCPHA",
+    "description": "Vitamin E (alpha-tocopherol)",
+    "decimals": "2",
+    "srOrder": "7900"
+  },
+  "324": {
+    "id": "324",
+    "units": "IU",
+    "tagname": "VITD",
+    "description": "Vitamin D",
+    "decimals": "0",
+    "srOrder": "8750"
+  },
+  "325": {
+    "id": "325",
+    "units": "�g",
+    "tagname": "ERGCAL",
+    "description": "Vitamin D2 (ergocalciferol)",
+    "decimals": "1",
+    "srOrder": "8710"
+  },
+  "326": {
+    "id": "326",
+    "units": "�g",
+    "tagname": "CHOCAL",
+    "description": "Vitamin D3 (cholecalciferol)",
+    "decimals": "1",
+    "srOrder": "8720"
+  },
+  "328": {
+    "id": "328",
+    "units": "�g",
+    "tagname": "VITD",
+    "description": "Vitamin D (D2 + D3)",
+    "decimals": "1",
+    "srOrder": "8700"
+  },
+  "334": {
+    "id": "334",
+    "units": "�g",
+    "tagname": "CRYPX",
+    "description": "Cryptoxanthin, beta",
+    "decimals": "0",
+    "srOrder": "7460"
+  },
+  "337": {
+    "id": "337",
+    "units": "�g",
+    "tagname": "LYCPN",
+    "description": "Lycopene",
+    "decimals": "0",
+    "srOrder": "7530"
+  },
+  "338": {
+    "id": "338",
+    "units": "�g",
+    "tagname": "LUT+ZEA",
+    "description": "Lutein + zeaxanthin",
+    "decimals": "0",
+    "srOrder": "7560"
+  },
+  "341": {
+    "id": "341",
+    "units": "mg",
+    "tagname": "TOCPHB",
+    "description": "Tocopherol, beta",
+    "decimals": "2",
+    "srOrder": "8000"
+  },
+  "342": {
+    "id": "342",
+    "units": "mg",
+    "tagname": "TOCPHG",
+    "description": "Tocopherol, gamma",
+    "decimals": "2",
+    "srOrder": "8100"
+  },
+  "343": {
+    "id": "343",
+    "units": "mg",
+    "tagname": "TOCPHD",
+    "description": "Tocopherol, delta",
+    "decimals": "2",
+    "srOrder": "8200"
+  },
+  "344": {
+    "id": "344",
+    "units": "mg",
+    "tagname": "TOCTRA",
+    "description": "Tocotrienol, alpha",
+    "decimals": "2",
+    "srOrder": "8300"
+  },
+  "345": {
+    "id": "345",
+    "units": "mg",
+    "tagname": "TOCTRB",
+    "description": "Tocotrienol, beta",
+    "decimals": "2",
+    "srOrder": "8400"
+  },
+  "346": {
+    "id": "346",
+    "units": "mg",
+    "tagname": "TOCTRG",
+    "description": "Tocotrienol, gamma",
+    "decimals": "2",
+    "srOrder": "8500"
+  },
+  "347": {
+    "id": "347",
+    "units": "mg",
+    "tagname": "TOCTRD",
+    "description": "Tocotrienol, delta",
+    "decimals": "2",
+    "srOrder": "8600"
+  },
+  "401": {
+    "id": "401",
+    "units": "mg",
+    "tagname": "VITC",
+    "description": "Vitamin C, total ascorbic acid",
+    "decimals": "1",
+    "srOrder": "6300"
+  },
+  "404": {
+    "id": "404",
+    "units": "mg",
+    "tagname": "THIA",
+    "description": "Thiamin",
+    "decimals": "3",
+    "srOrder": "6400"
+  },
+  "405": {
+    "id": "405",
+    "units": "mg",
+    "tagname": "RIBF",
+    "description": "Riboflavin",
+    "decimals": "3",
+    "srOrder": "6500"
+  },
+  "406": {
+    "id": "406",
+    "units": "mg",
+    "tagname": "NIA",
+    "description": "Niacin",
+    "decimals": "3",
+    "srOrder": "6600"
+  },
+  "410": {
+    "id": "410",
+    "units": "mg",
+    "tagname": "PANTAC",
+    "description": "Pantothenic acid",
+    "decimals": "3",
+    "srOrder": "6700"
+  },
+  "415": {
+    "id": "415",
+    "units": "mg",
+    "tagname": "VITB6A",
+    "description": "Vitamin B-6",
+    "decimals": "3",
+    "srOrder": "6800"
+  },
+  "417": {
+    "id": "417",
+    "units": "�g",
+    "tagname": "FOL",
+    "description": "Folate, total",
+    "decimals": "0",
+    "srOrder": "6900"
+  },
+  "418": {
+    "id": "418",
+    "units": "�g",
+    "tagname": "VITB12",
+    "description": "Vitamin B-12",
+    "decimals": "2",
+    "srOrder": "7300"
+  },
+  "421": {
+    "id": "421",
+    "units": "mg",
+    "tagname": "CHOLN",
+    "description": "Choline, total",
+    "decimals": "1",
+    "srOrder": "7220"
+  },
+  "428": {
+    "id": "428",
+    "units": "�g",
+    "tagname": "MK4",
+    "description": "Menaquinone-4",
+    "decimals": "1",
+    "srOrder": "8950"
+  },
+  "429": {
+    "id": "429",
+    "units": "�g",
+    "tagname": "VITK1D",
+    "description": "Dihydrophylloquinone",
+    "decimals": "1",
+    "srOrder": "8900"
+  },
+  "430": {
+    "id": "430",
+    "units": "�g",
+    "tagname": "VITK1",
+    "description": "Vitamin K (phylloquinone)",
+    "decimals": "1",
+    "srOrder": "8800"
+  },
+  "431": {
+    "id": "431",
+    "units": "�g",
+    "tagname": "FOLAC",
+    "description": "Folic acid",
+    "decimals": "0",
+    "srOrder": "7000"
+  },
+  "432": {
+    "id": "432",
+    "units": "�g",
+    "tagname": "FOLFD",
+    "description": "Folate, food",
+    "decimals": "0",
+    "srOrder": "7100"
+  },
+  "435": {
+    "id": "435",
+    "units": "�g",
+    "tagname": "FOLDFE",
+    "description": "Folate, DFE",
+    "decimals": "0",
+    "srOrder": "7200"
+  },
+  "454": {
+    "id": "454",
+    "units": "mg",
+    "tagname": "BETN",
+    "description": "Betaine",
+    "decimals": "1",
+    "srOrder": "7270"
+  },
+  "501": {
+    "id": "501",
+    "units": "g",
+    "tagname": "TRP_G",
+    "description": "Tryptophan",
+    "decimals": "3",
+    "srOrder": "16300"
+  },
+  "502": {
+    "id": "502",
+    "units": "g",
+    "tagname": "THR_G",
+    "description": "Threonine",
+    "decimals": "3",
+    "srOrder": "16400"
+  },
+  "503": {
+    "id": "503",
+    "units": "g",
+    "tagname": "ILE_G",
+    "description": "Isoleucine",
+    "decimals": "3",
+    "srOrder": "16500"
+  },
+  "504": {
+    "id": "504",
+    "units": "g",
+    "tagname": "LEU_G",
+    "description": "Leucine",
+    "decimals": "3",
+    "srOrder": "16600"
+  },
+  "505": {
+    "id": "505",
+    "units": "g",
+    "tagname": "LYS_G",
+    "description": "Lysine",
+    "decimals": "3",
+    "srOrder": "16700"
+  },
+  "506": {
+    "id": "506",
+    "units": "g",
+    "tagname": "MET_G",
+    "description": "Methionine",
+    "decimals": "3",
+    "srOrder": "16800"
+  },
+  "507": {
+    "id": "507",
+    "units": "g",
+    "tagname": "CYS_G",
+    "description": "Cystine",
+    "decimals": "3",
+    "srOrder": "16900"
+  },
+  "508": {
+    "id": "508",
+    "units": "g",
+    "tagname": "PHE_G",
+    "description": "Phenylalanine",
+    "decimals": "3",
+    "srOrder": "17000"
+  },
+  "509": {
+    "id": "509",
+    "units": "g",
+    "tagname": "TYR_G",
+    "description": "Tyrosine",
+    "decimals": "3",
+    "srOrder": "17100"
+  },
+  "510": {
+    "id": "510",
+    "units": "g",
+    "tagname": "VAL_G",
+    "description": "Valine",
+    "decimals": "3",
+    "srOrder": "17200"
+  },
+  "511": {
+    "id": "511",
+    "units": "g",
+    "tagname": "ARG_G",
+    "description": "Arginine",
+    "decimals": "3",
+    "srOrder": "17300"
+  },
+  "512": {
+    "id": "512",
+    "units": "g",
+    "tagname": "HISTN_G",
+    "description": "Histidine",
+    "decimals": "3",
+    "srOrder": "17400"
+  },
+  "513": {
+    "id": "513",
+    "units": "g",
+    "tagname": "ALA_G",
+    "description": "Alanine",
+    "decimals": "3",
+    "srOrder": "17500"
+  },
+  "514": {
+    "id": "514",
+    "units": "g",
+    "tagname": "ASP_G",
+    "description": "Aspartic acid",
+    "decimals": "3",
+    "srOrder": "17600"
+  },
+  "515": {
+    "id": "515",
+    "units": "g",
+    "tagname": "GLU_G",
+    "description": "Glutamic acid",
+    "decimals": "3",
+    "srOrder": "17700"
+  },
+  "516": {
+    "id": "516",
+    "units": "g",
+    "tagname": "GLY_G",
+    "description": "Glycine",
+    "decimals": "3",
+    "srOrder": "17800"
+  },
+  "517": {
+    "id": "517",
+    "units": "g",
+    "tagname": "PRO_G",
+    "description": "Proline",
+    "decimals": "3",
+    "srOrder": "17900"
+  },
+  "518": {
+    "id": "518",
+    "units": "g",
+    "tagname": "SER_G",
+    "description": "Serine",
+    "decimals": "3",
+    "srOrder": "18000"
+  },
+  "521": {
+    "id": "521",
+    "units": "g",
+    "tagname": "HYP",
+    "description": "Hydroxyproline",
+    "decimals": "3",
+    "srOrder": "18100"
+  },
+  "573": {
+    "id": "573",
+    "units": "mg",
+    "tagname": "",
+    "description": "Vitamin E, added",
+    "decimals": "2",
+    "srOrder": "7920"
+  },
+  "578": {
+    "id": "578",
+    "units": "�g",
+    "tagname": "",
+    "description": "Vitamin B-12, added",
+    "decimals": "2",
+    "srOrder": "7340"
+  },
+  "601": {
+    "id": "601",
+    "units": "mg",
+    "tagname": "CHOLE",
+    "description": "Cholesterol",
+    "decimals": "0",
+    "srOrder": "15700"
+  },
+  "605": {
+    "id": "605",
+    "units": "g",
+    "tagname": "FATRN",
+    "description": "Fatty acids, total trans",
+    "decimals": "3",
+    "srOrder": "15400"
+  },
+  "606": {
+    "id": "606",
+    "units": "g",
+    "tagname": "FASAT",
+    "description": "Fatty acids, total saturated",
+    "decimals": "3",
+    "srOrder": "9700"
+  },
+  "607": {
+    "id": "607",
+    "units": "g",
+    "tagname": "F4D0",
+    "description": "4:0",
+    "decimals": "3",
+    "srOrder": "9800"
+  },
+  "608": {
+    "id": "608",
+    "units": "g",
+    "tagname": "F6D0",
+    "description": "6:0",
+    "decimals": "3",
+    "srOrder": "9900"
+  },
+  "609": {
+    "id": "609",
+    "units": "g",
+    "tagname": "F8D0",
+    "description": "8:0",
+    "decimals": "3",
+    "srOrder": "10000"
+  },
+  "610": {
+    "id": "610",
+    "units": "g",
+    "tagname": "F10D0",
+    "description": "10:0",
+    "decimals": "3",
+    "srOrder": "10100"
+  },
+  "611": {
+    "id": "611",
+    "units": "g",
+    "tagname": "F12D0",
+    "description": "12:0",
+    "decimals": "3",
+    "srOrder": "10300"
+  },
+  "612": {
+    "id": "612",
+    "units": "g",
+    "tagname": "F14D0",
+    "description": "14:0",
+    "decimals": "3",
+    "srOrder": "10500"
+  },
+  "613": {
+    "id": "613",
+    "units": "g",
+    "tagname": "F16D0",
+    "description": "16:0",
+    "decimals": "3",
+    "srOrder": "10700"
+  },
+  "614": {
+    "id": "614",
+    "units": "g",
+    "tagname": "F18D0",
+    "description": "18:0",
+    "decimals": "3",
+    "srOrder": "10900"
+  },
+  "615": {
+    "id": "615",
+    "units": "g",
+    "tagname": "F20D0",
+    "description": "20:0",
+    "decimals": "3",
+    "srOrder": "11100"
+  },
+  "617": {
+    "id": "617",
+    "units": "g",
+    "tagname": "F18D1",
+    "description": "18:1 undifferentiated",
+    "decimals": "3",
+    "srOrder": "12100"
+  },
+  "618": {
+    "id": "618",
+    "units": "g",
+    "tagname": "F18D2",
+    "description": "18:2 undifferentiated",
+    "decimals": "3",
+    "srOrder": "13100"
+  },
+  "619": {
+    "id": "619",
+    "units": "g",
+    "tagname": "F18D3",
+    "description": "18:3 undifferentiated",
+    "decimals": "3",
+    "srOrder": "13900"
+  },
+  "620": {
+    "id": "620",
+    "units": "g",
+    "tagname": "F20D4",
+    "description": "20:4 undifferentiated",
+    "decimals": "3",
+    "srOrder": "14700"
+  },
+  "621": {
+    "id": "621",
+    "units": "g",
+    "tagname": "F22D6",
+    "description": "22:6 n-3 (DHA)",
+    "decimals": "3",
+    "srOrder": "15300"
+  },
+  "624": {
+    "id": "624",
+    "units": "g",
+    "tagname": "F22D0",
+    "description": "22:0",
+    "decimals": "3",
+    "srOrder": "11200"
+  },
+  "625": {
+    "id": "625",
+    "units": "g",
+    "tagname": "F14D1",
+    "description": "14:1",
+    "decimals": "3",
+    "srOrder": "11500"
+  },
+  "626": {
+    "id": "626",
+    "units": "g",
+    "tagname": "F16D1",
+    "description": "16:1 undifferentiated",
+    "decimals": "3",
+    "srOrder": "11700"
+  },
+  "627": {
+    "id": "627",
+    "units": "g",
+    "tagname": "F18D4",
+    "description": "18:4",
+    "decimals": "3",
+    "srOrder": "14250"
+  },
+  "628": {
+    "id": "628",
+    "units": "g",
+    "tagname": "F20D1",
+    "description": "20:1",
+    "decimals": "3",
+    "srOrder": "12400"
+  },
+  "629": {
+    "id": "629",
+    "units": "g",
+    "tagname": "F20D5",
+    "description": "20:5 n-3 (EPA)",
+    "decimals": "3",
+    "srOrder": "15000"
+  },
+  "630": {
+    "id": "630",
+    "units": "g",
+    "tagname": "F22D1",
+    "description": "22:1 undifferentiated",
+    "decimals": "3",
+    "srOrder": "12500"
+  },
+  "631": {
+    "id": "631",
+    "units": "g",
+    "tagname": "F22D5",
+    "description": "22:5 n-3 (DPA)",
+    "decimals": "3",
+    "srOrder": "15200"
+  },
+  "636": {
+    "id": "636",
+    "units": "mg",
+    "tagname": "PHYSTR",
+    "description": "Phytosterols",
+    "decimals": "0",
+    "srOrder": "15800"
+  },
+  "638": {
+    "id": "638",
+    "units": "mg",
+    "tagname": "STID7",
+    "description": "Stigmasterol",
+    "decimals": "0",
+    "srOrder": "15900"
+  },
+  "639": {
+    "id": "639",
+    "units": "mg",
+    "tagname": "CAMD5",
+    "description": "Campesterol",
+    "decimals": "0",
+    "srOrder": "16000"
+  },
+  "641": {
+    "id": "641",
+    "units": "mg",
+    "tagname": "SITSTR",
+    "description": "Beta-sitosterol",
+    "decimals": "0",
+    "srOrder": "16200"
+  },
+  "645": {
+    "id": "645",
+    "units": "g",
+    "tagname": "FAMS",
+    "description": "Fatty acids, total monounsaturated",
+    "decimals": "3",
+    "srOrder": "11400"
+  },
+  "646": {
+    "id": "646",
+    "units": "g",
+    "tagname": "FAPU",
+    "description": "Fatty acids, total polyunsaturated",
+    "decimals": "3",
+    "srOrder": "12900"
+  },
+  "652": {
+    "id": "652",
+    "units": "g",
+    "tagname": "F15D0",
+    "description": "15:0",
+    "decimals": "3",
+    "srOrder": "10600"
+  },
+  "653": {
+    "id": "653",
+    "units": "g",
+    "tagname": "F17D0",
+    "description": "17:0",
+    "decimals": "3",
+    "srOrder": "10800"
+  },
+  "654": {
+    "id": "654",
+    "units": "g",
+    "tagname": "F24D0",
+    "description": "24:0",
+    "decimals": "3",
+    "srOrder": "11300"
+  },
+  "662": {
+    "id": "662",
+    "units": "g",
+    "tagname": "F16D1T",
+    "description": "16:1 t",
+    "decimals": "3",
+    "srOrder": "11900"
+  },
+  "663": {
+    "id": "663",
+    "units": "g",
+    "tagname": "F18D1T",
+    "description": "18:1 t",
+    "decimals": "3",
+    "srOrder": "12300"
+  },
+  "664": {
+    "id": "664",
+    "units": "g",
+    "tagname": "F22D1T",
+    "description": "22:1 t",
+    "decimals": "3",
+    "srOrder": "12700"
+  },
+  "665": {
+    "id": "665",
+    "units": "g",
+    "tagname": "",
+    "description": "18:2 t not further defined",
+    "decimals": "3",
+    "srOrder": "13800"
+  },
+  "666": {
+    "id": "666",
+    "units": "g",
+    "tagname": "",
+    "description": "18:2 i",
+    "decimals": "3",
+    "srOrder": "13700"
+  },
+  "669": {
+    "id": "669",
+    "units": "g",
+    "tagname": "F18D2TT",
+    "description": "18:2 t,t",
+    "decimals": "3",
+    "srOrder": "13600"
+  },
+  "670": {
+    "id": "670",
+    "units": "g",
+    "tagname": "F18D2CLA",
+    "description": "18:2 CLAs",
+    "decimals": "3",
+    "srOrder": "13300"
+  },
+  "671": {
+    "id": "671",
+    "units": "g",
+    "tagname": "F24D1C",
+    "description": "24:1 c",
+    "decimals": "3",
+    "srOrder": "12800"
+  },
+  "672": {
+    "id": "672",
+    "units": "g",
+    "tagname": "F20D2CN6",
+    "description": "20:2 n-6 c,c",
+    "decimals": "3",
+    "srOrder": "14300"
+  },
+  "673": {
+    "id": "673",
+    "units": "g",
+    "tagname": "F16D1C",
+    "description": "16:1 c",
+    "decimals": "3",
+    "srOrder": "11800"
+  },
+  "674": {
+    "id": "674",
+    "units": "g",
+    "tagname": "F18D1C",
+    "description": "18:1 c",
+    "decimals": "3",
+    "srOrder": "12200"
+  },
+  "675": {
+    "id": "675",
+    "units": "g",
+    "tagname": "F18D2CN6",
+    "description": "18:2 n-6 c,c",
+    "decimals": "3",
+    "srOrder": "13200"
+  },
+  "676": {
+    "id": "676",
+    "units": "g",
+    "tagname": "F22D1C",
+    "description": "22:1 c",
+    "decimals": "3",
+    "srOrder": "12600"
+  },
+  "685": {
+    "id": "685",
+    "units": "g",
+    "tagname": "F18D3CN6",
+    "description": "18:3 n-6 c,c,c",
+    "decimals": "3",
+    "srOrder": "14100"
+  },
+  "687": {
+    "id": "687",
+    "units": "g",
+    "tagname": "F17D1",
+    "description": "17:1",
+    "decimals": "3",
+    "srOrder": "12000"
+  },
+  "689": {
+    "id": "689",
+    "units": "g",
+    "tagname": "F20D3",
+    "description": "20:3 undifferentiated",
+    "decimals": "3",
+    "srOrder": "14400"
+  },
+  "693": {
+    "id": "693",
+    "units": "g",
+    "tagname": "FATRNM",
+    "description": "Fatty acids, total trans-monoenoic",
+    "decimals": "3",
+    "srOrder": "15500"
+  },
+  "695": {
+    "id": "695",
+    "units": "g",
+    "tagname": "FATRNP",
+    "description": "Fatty acids, total trans-polyenoic",
+    "decimals": "3",
+    "srOrder": "15600"
+  },
+  "696": {
+    "id": "696",
+    "units": "g",
+    "tagname": "F13D0",
+    "description": "13:0",
+    "decimals": "3",
+    "srOrder": "10400"
+  },
+  "697": {
+    "id": "697",
+    "units": "g",
+    "tagname": "F15D1",
+    "description": "15:1",
+    "decimals": "3",
+    "srOrder": "11600"
+  },
+  "851": {
+    "id": "851",
+    "units": "g",
+    "tagname": "F18D3CN3",
+    "description": "18:3 n-3 c,c,c (ALA)",
+    "decimals": "3",
+    "srOrder": "14000"
+  },
+  "852": {
+    "id": "852",
+    "units": "g",
+    "tagname": "F20D3N3",
+    "description": "20:3 n-3",
+    "decimals": "3",
+    "srOrder": "14500"
+  },
+  "853": {
+    "id": "853",
+    "units": "g",
+    "tagname": "F20D3N6",
+    "description": "20:3 n-6",
+    "decimals": "3",
+    "srOrder": "14600"
+  },
+  "855": {
+    "id": "855",
+    "units": "g",
+    "tagname": "F20D4N6",
+    "description": "20:4 n-6",
+    "decimals": "3",
+    "srOrder": "14900"
+  },
+  "856": {
+    "id": "856",
+    "units": "g",
+    "tagname": "",
+    "description": "18:3i",
+    "decimals": "3",
+    "srOrder": "14200"
+  },
+  "857": {
+    "id": "857",
+    "units": "g",
+    "tagname": "F21D5",
+    "description": "21:5",
+    "decimals": "3",
+    "srOrder": "15100"
+  },
+  "858": {
+    "id": "858",
+    "units": "g",
+    "tagname": "F22D4",
+    "description": "22:4",
+    "decimals": "3",
+    "srOrder": "15160"
+  },
+  "859": {
+    "id": "859",
+    "units": "g",
+    "tagname": "F18D1TN7",
+    "description": "18:1-11 t (18:1t n-7)",
+    "decimals": "3",
+    "srOrder": "12310"
+  },
+  "": {
+    "id": ""
+  }
+}

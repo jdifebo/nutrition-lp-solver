@@ -1,0 +1,30 @@
+{{food.longDescription}}
+
+<br>
+
+{{food.commonNames}}
+
+<br>
+
+Survey?  {{food.survey}}
+
+<hr>
+
+<select>
+  <option value="100">100 grams</option>
+  <option *ngFor="let weight of food.weights" value="{{weight.gramWeight}}">{{weight.amount}} {{weight.description}} ({{weight.gramWeight}} g)</option>  
+</select>
+
+<hr>
+
+<b>Nutrients per 100 g</b>
+<table>
+  <tr>
+    <th>ID</th><th>Description</th><th>Value</th>
+  </tr>
+  <tr *ngFor="let nutrient of food.nutrients">
+    <td>{{nutrient.nutrientId}}</td>
+    <td>{{nutrients[nutrient.nutrientId].description}}</td>
+    <td>{{nutrient.value}} {{nutrients[nutrient.nutrientId].units}}</td>
+  </tr>
+</table>

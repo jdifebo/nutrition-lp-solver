@@ -1,0 +1,56 @@
+<h1>Nutrient Optimizer</h1>
+<hr />
+<div class="row">
+  <div class="col-6">
+    <h2>Nutrient Constraints</h2>
+    <div *ngFor="let nutrientId of nutrientsToInclude">
+      <div class="nutrient-constraint">
+        <b>{{nutrients[nutrientId].description}}</b> &ndash; Minimum: <input [(ngModel)]="requirements[nutrientId].min"> {{nutrients[nutrientId].units}}
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+
+  </div>
+</div>
+<div class="row">
+  <button (click)="calculate()" type="button" class="btn btn-primary btn-lg btn-block">Calculate!</button>
+</div>
+
+
+<div *ngIf="results">
+  <table class="table table-sm table-hover">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Total</th>
+        <th *ngFor="let food of foodsInResults.slice(0, 15)">
+          <a [routerLink]="['/foods', food.id]">{{food.longDescription}}</a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Amount (g)</th>
+        <td></td>
+        <td *ngFor="let food of foodsInResults.slice(0, 15)">{{results[food.id] * 100 | number:'1.0-1'}}</td>
+      </tr>
+      <tr>
+        <th>kcal</th>
+        <td>{{totalOfNutrient(208) | number:'1.0-1'}}</td>
+        <td *ngFor="let food of foodsInResults.slice(0, 15)">{{food.nutrientMap[208].value * results[food.id] | number:'1.0-1'}}</td>
+      </tr>
+      <tr *ngFor="let nutrientId of nutrientsToInclude">
+        <th>{{nutrients[nutrientId].description}} ({{nutrients[nutrientId].units}})</th>
+        <td>{{totalOfNutrient(nutrientId) | number:'1.0-1'}} ({{totalOfNutrient(nutrientId) / requirements[nutrientId].min *
+          100 | number:'1.0-1'}}%)</td>
+        <td *ngFor="let food of foodsInResults.slice(0, 15)">
+          <span *ngIf="food.nutrientMap[nutrientId]"  style="background-color: rgba(0, 255, 0, {{food.nutrientMap[nutrientId].value * results[food.id] / requirements[nutrientId].min | number:'1.0-3'}})">
+            {{food.nutrientMap[nutrientId].value * results[food.id] | number:'1.0-1'}} 
+            ({{food.nutrientMap[nutrientId].value * results[food.id] / requirements[nutrientId].min * 100 | number:'1.0-1'}}%)
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

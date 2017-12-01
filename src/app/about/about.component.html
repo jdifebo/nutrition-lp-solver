@@ -1,0 +1,63 @@
+<div class="container">
+  <h1>Optimizing Nutrients using Linear Programming</h1>
+
+  <h3>What is linear programming?</h3>
+  <p>
+    Linear programming is an optimization method that can be applied to systems of linear constraints. For example, if you have
+    the following constraints:
+  </p>
+  <pre>
+    21x + 3y + 8z &gt; 56
+    7y + 76z &gt; 130
+  </pre> 
+  <p>
+    You could then optimize for the function:
+  </p>
+  <pre>
+    Minimize: 119*x + 34*y + 362*z
+  </pre>
+
+  <h3>Great, why is that useful?</h3>
+
+  A variety of problems can be solved by realizing that they can be converted into a bunch of constraint functions. For example,
+  consider the following hypothetical scenario. You look in your kitchen and you realize that the only food that you have
+  is chicken, broccoli, and brown rice. Due to your new diet, you know that you need at least 56 grams of protein and 130
+  grams of carbohydrates every day. But you also want to lose weight, so you are attempting to minimize the number of calories
+  that you eat every day. After thinking back to your algorithms coursework, you realize that this problem is perfect for
+  linear programming! You look up the nutrition information for your 3 foods and enter the values in a table as follows:
+
+  <table class="table" style="max-width: 650px">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Chicken</th>
+        <th scope="col">Broccoli</th>
+        <th scope="col">Brown Rice</th>
+        <th scope="col">Daily Goal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Protein (g)</th>
+        <td>21</td>
+        <td>3</td>
+        <td>8</td>
+        <td>&ge;56</td>
+      </tr>
+      <tr>
+        <th scope="row">Carbs (g)</th>
+        <td>0</td>
+        <td>7</td>
+        <td>76</td>
+        <td>&ge;130</td>
+      </tr>
+      <tr>
+        <th scope="row">Calories (kcal)</th>
+        <td>119</td>
+        <td>34</td>
+        <td>362</td>
+        <td>Minimize</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
