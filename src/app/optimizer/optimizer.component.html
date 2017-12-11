@@ -1,16 +1,39 @@
 <h1>Nutrient Optimizer</h1>
 <hr />
 <div class="row">
-  <div class="col-6">
-    <h2>Nutrient Constraints</h2>
+  <div class="col">
+    <h2>Step 1: Pick the dataset</h2>
+  </div>
+</div>
+
+<div class="form-group-row">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" [(ngModel)]="survey" (change)="chooseDataset()"> Only include foods with complete nutrient profiles
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" [(ngModel)]="hasCalories" (change)="chooseDataset()"> Only include foods with greater than 0 calories
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" [(ngModel)]="addsUp" (change)="chooseDataset()"> Only include foods where the calories add up
+    </label>
+  </div>
+  <h4>{{foodsToOptimize.length}} foods selected from {{allFoods.length}} total</h4>
+</div>
+<hr />
+<div class="row">
+  <div class="col">
+    <h2>Step 2: Set Nutrient Constraints</h2>
     <div *ngFor="let nutrientId of nutrientsToInclude">
       <div class="nutrient-constraint">
-        <b>{{nutrients[nutrientId].description}}</b> &ndash; Minimum: <input [(ngModel)]="requirements[nutrientId].min"> {{nutrients[nutrientId].units}}
+        <b>{{nutrients[nutrientId].description}}</b> ({{nutrients[nutrientId].units}}):
+        <input width="50px" [(ngModel)]="requirements[nutrientId].min"> &ndash; <input width="50px" [(ngModel)]="requirements[nutrientId].max">
       </div>
     </div>
-  </div>
-  <div class="col-6">
-
   </div>
 </div>
 <div class="row">
@@ -45,9 +68,9 @@
         <td>{{totalOfNutrient(nutrientId) | number:'1.0-1'}} ({{totalOfNutrient(nutrientId) / requirements[nutrientId].min *
           100 | number:'1.0-1'}}%)</td>
         <td *ngFor="let food of foodsInResults.slice(0, 15)">
-          <span *ngIf="food.nutrientMap[nutrientId]"  style="background-color: rgba(0, 255, 0, {{food.nutrientMap[nutrientId].value * results[food.id] / requirements[nutrientId].min | number:'1.0-3'}})">
-            {{food.nutrientMap[nutrientId].value * results[food.id] | number:'1.0-1'}} 
-            ({{food.nutrientMap[nutrientId].value * results[food.id] / requirements[nutrientId].min * 100 | number:'1.0-1'}}%)
+          <span *ngIf="food.nutrientMap[nutrientId]" style="background-color: rgba(0, 255, 0, {{food.nutrientMap[nutrientId].value * results[food.id] / requirements[nutrientId].min | number:'1.0-3'}})">
+            {{food.nutrientMap[nutrientId].value * results[food.id] | number:'1.0-1'}} ({{food.nutrientMap[nutrientId].value * results[food.id]
+            / requirements[nutrientId].min * 100 | number:'1.0-1'}}%)
           </span>
         </td>
       </tr>

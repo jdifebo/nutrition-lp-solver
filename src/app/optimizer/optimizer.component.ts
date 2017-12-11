@@ -9,6 +9,11 @@ import { RequirementsService } from '../requirements.service';
 })
 export class OptimizerComponent implements OnInit {
 
+  survey = true;
+  hasCalories = true;
+  addsUp = true;
+
+  allFoods = [];
   foodsToOptimize = [];
   foodsInResults = [];
   requirements = {};
@@ -21,21 +26,28 @@ export class OptimizerComponent implements OnInit {
               private optimizerService: OptimizerService) { }
 
   ngOnInit() {
-    let temp = new Set(["05011", "11090", "16087"]);
-    let allFoods = Object.keys(this.foodService.foods).map(key => this.foodService.foods[key]);
+    this.allFoods = Object.keys(this.foodService.foods).map(key => this.foodService.foods[key]);
     this.nutrients = this.foodService.nutrients;
-    this.foodsToOptimize = allFoods.filter(food => food.survey);//.filter(food => temp.has(food.id));
-    let count = 0;
-    this.foodsToOptimize.forEach(food => {
+    this.allFoods.forEach(food => {
       food.nutrientMap = {};
       food.nutrients.forEach(nutrient => {
         food.nutrientMap[nutrient.nutrientId] = nutrient;
       })
     });
-    this.foodsToOptimize = this.foodsToOptimize.filter(this.doCaloriesAddUp);
     this.requirements = this.requirementsService.getFormattedRequirements();
     this.nutrientsToInclude = Object.keys(this.requirements);
-    this.calculate();
+
+    this.chooseDataset();
+  }
+
+  chooseDataset() {
+    this.foodsToOptimize = this.allFoods;
+    if (this.survey) {
+      this.foodsToOptimize = this.foodsToOptimize.filter(food => food.survey);
+    }
+    if (this.addsUp) {
+      this.foodsToOptimize = this.foodsToOptimize.filter(this.doCaloriesAddUp);
+    }
   }
 
   calculate() {
@@ -58,12 +70,17 @@ export class OptimizerComponent implements OnInit {
   sum = (x, y) => x + y;
 
   doCaloriesAddUp(food){
+    if (food.nutrientMap["208"] == undefined){
+      return false;
+    }
     let kcal = food.nutrientMap["208"].value;
     let protein = food.nutrientMap["203"].value;
     let fat = food.nutrientMap["204"].value;
-    let netCarbs = food.nutrientMap["205"].value - food.nutrientMap["291"].value;
-    let alcohol = food.nutrientMap["221"].value;
+    let carbs = food.nutrientMap["205"].value;
+    let fiber = food.nutrientMap["291"] ? food.nutrientMap["291"].value : 0;
+    let netCarbs = carbs - fiber;
+    let alcohol = food.nutrientMap["221"] ? food.nutrientMap["221"].value : 0;
     let calculatedCalories = protein * 4 + netCarbs * 4 + fat * 9 + alcohol * 7;
-    return calculatedCalories * .5 < kcal && calculatedCalories * 2 > kcal
+    return calculatedCalories * .75 < kcal && calculatedCalories * 1.33 > kcal
   }
 }

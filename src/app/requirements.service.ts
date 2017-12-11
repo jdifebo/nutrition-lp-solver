@@ -29,7 +29,7 @@ export class RequirementsService {
     let formatted = {};
     Object.keys(this.requirements.males["19-to-30"]).forEach(nutrientDescription => {
       let nutrientId = Object.keys(nutrients).filter(id => nutrients[id].description == nutrientDescription)[0];
-      formatted[nutrientId] = {min: this.requirements.males["19-to-30"][nutrientDescription]}
+      formatted[nutrientId] = this.requirements.males["19-to-30"][nutrientDescription]
     })
     return formatted;
   }
